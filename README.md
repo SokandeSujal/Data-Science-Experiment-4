@@ -1,34 +1,3 @@
-# Data Preprocessing
-
-In machine learning, data normalization and standardization are common preprocessing steps.
-
-## Normalization
-
-Normalization (min-max scaling) rescales data to a range of [0, 1]. The formula for normalization is:
-
-$$
-x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}
-$$
-
-where:
-- \( x \) is the original value,
-- \( x_{min} \) is the minimum value in the dataset,
-- \( x_{max} \) is the maximum value in the dataset.
-
-## Standardization
-
-Standardization (Z-score normalization) rescales data to have a mean of 0 and a standard deviation of 1. The formula for standardization is:
-
-$$
-x_{std} = \frac{x - \mu}{\sigma}
-$$
-
-where:
-- \( x \) is the original value,
-- \( \mu \) is the mean of the dataset,
-- \( \sigma \) is the standard deviation of the dataset.
-
-
 # Data-Science-Experiment-4
 
 ## Data Preprocessing: Normalization and Standardization
@@ -40,27 +9,27 @@ In this experiment, we explore two crucial data preprocessing techniques: **Norm
 
 - **Normalization (Min-Max Scaling)**:
   - **Formula**:  
-$$
-x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}
-$$
-
-where:
-- \( x \) is the original value,
-- \( x_{min} \) is the minimum value in the dataset,
-- \( x_{max} \) is the maximum value in the dataset.
+  $$
+  x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}
+  $$
+  
+  where:
+  - \( x \) is the original value,
+  - \( x_{min} \) is the minimum value in the dataset,
+  - \( x_{max} \) is the maximum value in the dataset.
   - **Purpose**: Rescales features to a specific range, typically [0, 1].
   - **Impact**: Changes the range of the data but preserves the distribution's shape.
 
 - **Standardization (Z-Score Normalization)**:
   - **Formula**:
-$$
-x_{std} = \frac{x - \mu}{\sigma}
-$$
-
-where:
-- \( x \) is the original value,
-- \( \mu \) is the mean of the dataset,
-- \( \sigma \) is the standard deviation of the dataset.
+  $$
+  x_{std} = \frac{x - \mu}{\sigma}
+  $$
+  
+  where:
+  - \( x \) is the original value,
+  - \( \mu \) is the mean of the dataset,
+  - \( \sigma \) is the standard deviation of the dataset.
   - **Purpose**: Transforms features to have a mean of 0 and a standard deviation of 1.
   - **Impact**: Centers the data but preserves the shape of the distribution.
 
