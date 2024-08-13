@@ -9,9 +9,8 @@ In this experiment, we explore two crucial data preprocessing techniques: **Norm
 
 - **Normalization (Min-Max Scaling)**:
   - **Formula**:  
-    \[
-    X_{\text{norm}} = \frac{X - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}
-    \]
+$$ X_{\text{norm}} = \frac{X - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}} $$
+
   - **Purpose**: Rescales features to a specific range, typically [0, 1].
   - **Impact**: Changes the range of the data but preserves the distribution's shape.
 
