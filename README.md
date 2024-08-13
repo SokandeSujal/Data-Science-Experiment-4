@@ -10,9 +10,9 @@ In this experiment, we explore two crucial data preprocessing techniques: **Norm
 - **Normalization (Min-Max Scaling)**:
   - **Formula**:  
     The normalization formula is given by:
-    $$
-    x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}
-    $$
+$$
+x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}
+$$
     where:
     - $x$ is the original value,
     - $x_{min}$ is the minimum value in the dataset,
@@ -23,9 +23,9 @@ In this experiment, we explore two crucial data preprocessing techniques: **Norm
 - **Standardization (Z-Score Normalization)**:
   - **Formula**:  
     The standardization formula is given by:
-    $$
-    x_{std} = \frac{x - \mu}{\sigma}
-    $$
+$$
+x_{std} = \frac{x - \mu}{\sigma}
+$$
     where:
     - $x$ is the original value,
     - $\mu$ is the mean of the dataset,
