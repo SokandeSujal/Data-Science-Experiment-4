@@ -9,17 +9,27 @@ In this experiment, we explore two crucial data preprocessing techniques: **Norm
 
 - **Normalization (Min-Max Scaling)**:
   - **Formula**:  
-    \[
-    X_{\text{norm}} = \frac{X - X_{\text{min}}}{X_{\text{max}} - X_{\text{min}}}
-    \]
+$$
+x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}
+$$
+
+where:
+- \( x \) is the original value,
+- \( x_{min} \) is the minimum value in the dataset,
+- \( x_{max} \) is the maximum value in the dataset.
   - **Purpose**: Rescales features to a specific range, typically [0, 1].
   - **Impact**: Changes the range of the data but preserves the distribution's shape.
 
 - **Standardization (Z-Score Normalization)**:
-  - **Formula**:  
-    \[
-    X_{\text{std}} = \frac{X - \mu}{\sigma}
-    \]
+  - **Formula**:
+$$
+x_{std} = \frac{x - \mu}{\sigma}
+$$
+
+where:
+- \( x \) is the original value,
+- \( \mu \) is the mean of the dataset,
+- \( \sigma \) is the standard deviation of the dataset.
   - **Purpose**: Transforms features to have a mean of 0 and a standard deviation of 1.
   - **Impact**: Centers the data but preserves the shape of the distribution.
 
